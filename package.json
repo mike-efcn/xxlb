@@ -1,6 +1,6 @@
 {
   "name": "xxlb",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Vanilla utilities",
   "keywords": [],
   "homepage": "https://github.com/mike-efcn/xxlb#readme",
@@ -25,7 +25,7 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "lint": "eslint -c .eslintrc.json --ext .ts src",
     "test": "jest -c jest.config.ts"
   },
