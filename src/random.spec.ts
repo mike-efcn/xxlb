@@ -15,6 +15,7 @@ describe('random', () => {
         const str = randomString(length);
         expect(str.length).toEqual(length);
       });
+      expect(randomString(-100)).toEqual('');
     });
   });
 });

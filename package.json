@@ -1,6 +1,6 @@
 {
   "name": "xxlb",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Vanilla utilities",
   "keywords": [],
   "homepage": "https://github.com/mike-efcn/xxlb#readme",
@@ -27,7 +27,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "lint": "eslint -c .eslintrc.json --ext .ts src",
-    "test": "jest -c jest.config.ts"
+    "test": "jest -c jest.config.ts --coverage"
   },
   "lint-staged": {
     "src/**/*.ts": [
