@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "declarationDir": "dist",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "ES2020"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "paths": {},
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "strict": true,
+    "target": "ES2015"
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ]
+}

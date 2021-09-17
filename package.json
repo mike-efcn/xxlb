@@ -1,20 +1,30 @@
 {
   "name": "xxlb",
-  "version": "0.0.1",
-  "description": "Utilities",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.2",
+  "description": "Vanilla utilities",
+  "keywords": [],
+  "homepage": "https://github.com/mike-efcn/xxlb#readme",
+  "bugs": {
+    "url": "https://github.com/mike-efcn/xxlb/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mike-efcn/xxlb.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mike-efcn/xxlb/issues"
+  "license": "MIT",
+  "author": {
+    "name": "Mike Pan",
+    "email": "mike.pan@ef.cn",
+    "url": "https://github.com/mike-efcn"
   },
-  "homepage": "https://github.com/mike-efcn/xxlb#readme"
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0",
+    "typescript": "^4.4.3"
+  }
 }
