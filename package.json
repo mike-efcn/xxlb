@@ -1,6 +1,6 @@
 {
   "name": "xxlb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vanilla utilities",
   "keywords": [],
   "homepage": "https://github.com/mike-efcn/xxlb#readme",
@@ -17,6 +17,10 @@
     "email": "mike.pan@ef.cn",
     "url": "https://github.com/mike-efcn"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
