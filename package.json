@@ -34,7 +34,7 @@
       "prettier -w",
       "eslint -c .eslintrc.json --max-warnings=0 --fix"
     ],
-    "**/*.{json,js}": [
+    "**/*.{js,json,yml}": [
       "prettier -w"
     ]
   },

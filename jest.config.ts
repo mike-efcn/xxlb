@@ -5,6 +5,8 @@ const config: Config.InitialOptions = {
   collectCoverage: true,
   coverageDirectory: path.resolve(__dirname, 'coverage'),
   coverageReporters: [
+    ['clover', {}],
+    ['cobertura', {}],
     [
       'html',
       {

@@ -11,6 +11,7 @@
 ![Codecov branch](https://img.shields.io/codecov/c/github/mike-efcn/xxlb/main)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/76f33596acf17a694efd/test_coverage)](https://codeclimate.com/github/mike-efcn/xxlb/test_coverage)
 ![Code Climate coverage](https://img.shields.io/codeclimate/coverage/mike-efcn/xxlb)
+[![Space Metric](https://mike-efcn.testspace.com/spaces/150501/metrics/173206/badge?token=4dfe88204066139640205f8bd300bdacd47e45eb)](https://mike-efcn.testspace.com/spaces/150501/current/Code%20Coverage?utm_campaign=badge&utm_medium=referral&utm_source=coverage "Code Coverage (statements)")
 
 ![GitHub top language](https://img.shields.io/github/languages/top/mike-efcn/xxlb)
 [![Maintainability](https://api.codeclimate.com/v1/badges/76f33596acf17a694efd/maintainability)](https://codeclimate.com/github/mike-efcn/xxlb/maintainability)

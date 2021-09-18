@@ -30,3 +30,7 @@ jobs:
         with:
           coverageLocations: |
             ${{ github.workspace }}/coverage/lcov.info:lcov
+      - uses: testspace-com/setup-testspace@v1
+        with:
+          domain: ${{ github.repository_owner }}
+      - run: testspace coverage/clover.xml coverage/cobertura-coverage.xml
