@@ -27,7 +27,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "lint": "eslint -c .eslintrc.json --ext .ts src",
-    "test": "jest -c jest.config.ts --coverage"
+    "test": "jest -c jest.config.ts"
   },
   "lint-staged": {
     "src/**/*.ts": [

@@ -2,8 +2,20 @@ import type { Config } from '@jest/types';
 import path from 'path';
 
 const config: Config.InitialOptions = {
+  collectCoverage: true,
   coverageDirectory: path.resolve(__dirname, 'coverage'),
-  coverageReporters: ['json', 'lcov', 'text'],
+  coverageReporters: [
+    [
+      'html',
+      {
+        subdir: 'html',
+        verbose: true,
+      },
+    ],
+    ['json', {}],
+    ['lcov', {}],
+    ['text', {}],
+  ],
   coveragePathIgnorePatterns: ['/node_modules/'],
   globals: {
     'ts-jest': {
