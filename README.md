@@ -5,6 +5,8 @@
 
 [![Nightly](https://github.com/mike-efcn/xxlb/actions/workflows/nightly.yml/badge.svg?branch=main)](https://github.com/mike-efcn/xxlb/actions/workflows/nightly.yml)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/mike-efcn/xxlb/Nightly/main)
+[![Build Status](https://app.travis-ci.com/mike-efcn/xxlb.svg?branch=main)](https://app.travis-ci.com/mike-efcn/xxlb)
+![Travis (.com) branch](https://img.shields.io/travis/com/mike-efcn/xxlb/main)
 [![codecov](https://codecov.io/gh/mike-efcn/xxlb/branch/main/graph/badge.svg?token=LVF4WFXW0V)](https://codecov.io/gh/mike-efcn/xxlb)
 ![Codecov branch](https://img.shields.io/codecov/c/github/mike-efcn/xxlb/main)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/76f33596acf17a694efd/test_coverage)](https://codeclimate.com/github/mike-efcn/xxlb/test_coverage)

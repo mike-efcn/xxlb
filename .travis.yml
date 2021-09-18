@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 16
+git:
+  depth: 1
+
+cache:
+  yarn: true
+
+before_install:
+  - echo before_install
+
+install:
+  - yarn --frozen-lockfile --ignore-optional
+  - yarn lint
+  - yarn test
+  - yarn build && ls -al dist
