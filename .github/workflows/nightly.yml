@@ -33,4 +33,4 @@ jobs:
       - uses: testspace-com/setup-testspace@v1
         with:
           domain: ${{ github.repository_owner }}
-      - run: testspace coverage/clover.xml coverage/cobertura-coverage.xml
+      - run: testspace coverage/testspace.xml coverage/clover.xml coverage/cobertura-coverage.xml

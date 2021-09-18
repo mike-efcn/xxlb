@@ -1,8 +1,10 @@
 # xxlb
 
-![npm](https://img.shields.io/npm/v/xxlb?color=green)
-![NPM](https://img.shields.io/npm/l/xxlb)
+![npm](https://img.shields.io/npm/v/xxlb?color=brightgreen)
+![NPM](https://img.shields.io/npm/l/xxlb?color=brightgreen)
 
+
+![Testspace tests (compact)](https://img.shields.io/testspace/tests/mike-efcn/mike-efcn:xxlb/main?compact_message)
 [![Nightly](https://github.com/mike-efcn/xxlb/actions/workflows/nightly.yml/badge.svg?branch=main)](https://github.com/mike-efcn/xxlb/actions/workflows/nightly.yml)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/mike-efcn/xxlb/Nightly/main)
 [![Build Status](https://app.travis-ci.com/mike-efcn/xxlb.svg?branch=main)](https://app.travis-ci.com/mike-efcn/xxlb)
@@ -19,5 +21,12 @@
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/mike-efcn/xxlb)
 ![npms.io (final)](https://img.shields.io/npms-io/maintenance-score/xxlb)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/mike-efcn/xxlb)
+![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/xxlb)
 
 [![NPM](https://nodei.co/npm/xxlb.png)](https://www.npmjs.com/package/xxlb)
+
+### Install
+
+```
+npm install xxlb
+```
