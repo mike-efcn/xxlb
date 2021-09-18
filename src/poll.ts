@@ -1,6 +1,6 @@
 interface PollOptions {
   retry?: number;
-  interval?: number;
+  interval?: number; // milliseconds
 }
 
 const defaultOptions: PollOptions = {

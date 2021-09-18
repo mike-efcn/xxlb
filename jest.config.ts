@@ -27,7 +27,10 @@ const config: Config.InitialOptions = {
   moduleNameMapper: {},
   rootDir: './src',
   preset: 'ts-jest',
-  reporters: [path.resolve(__dirname, 'scripts/TestspaceReporter.js')],
+  reporters: [
+    'default',
+    path.resolve(__dirname, 'scripts/TestspaceReporter.js'),
+  ],
   testEnvironment: 'node',
   testRegex: '^.+\\.spec\\.ts?$',
   transform: {
