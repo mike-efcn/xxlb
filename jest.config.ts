@@ -29,12 +29,13 @@ const config: Config.InitialOptions = {
   preset: 'ts-jest',
   reporters: [
     'default',
-    path.resolve(__dirname, 'scripts/TestspaceReporter.js'),
+    path.resolve(__dirname, 'scripts/TestspaceReporter.ts'),
   ],
   testEnvironment: 'node',
   testRegex: '^.+\\.spec\\.ts?$',
   transform: {
     '^.+\\.spec\\.ts$': 'ts-jest',
+    '^scripts/.+\\.ts$': 'ts-jest',
   },
   verbose: true,
 };
