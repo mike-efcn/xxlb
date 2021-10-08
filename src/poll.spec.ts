@@ -1,4 +1,4 @@
-import poll, { sleep } from './poll';
+import { poll, sleep } from './poll';
 
 describe('poll', () => {
   describe('#poll', () => {

@@ -11,7 +11,7 @@ const defaultOptions: PollOptions = {
 /**
  * @description Poll until `cb` returns true
  */
-const poll = async (
+export const poll = async (
   cb: () => boolean | Promise<boolean>,
   options: PollOptions = {},
 ): Promise<void> =>
